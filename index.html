@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#120b18">
+  <title>For Yashi ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <section class="screen active" id="welcome">
+      <div class="particles"></div>
+      <p class="eyebrow">A little birthday journey</p>
+      <h1>Hey, Yashi…</h1>
+      <p class="subtitle">I made something just for you. ❤️</p>
+      <button class="primary" data-next="holi">Start the surprise</button>
+    </section>
+
+    <section class="screen" id="holi">
+      <div class="memory-icon">🌈</div>
+      <p class="eyebrow">Chapter 01</p>
+      <h2>Do you remember Holi?</h2>
+      <p>The day our story quietly started… before we knew how many adventures, fights, laughs and memories were waiting for us.</p>
+      <button class="primary" data-next="journey">Continue ❤️</button>
+    </section>
+
+    <section class="screen" id="journey">
+      <div class="memory-icon">🌆</div>
+      <p class="eyebrow">Chapter 02</p>
+      <h2>Then came <span>us.</span></h2>
+      <div class="story-card">
+        <p>Delhi, random adventures, endless fun, stupid fights and countless moments that somehow became our memories.</p>
+        <p>We weren't perfect. We fought a lot. But even through all of that, I kept loving you more.</p>
+      </div>
+      <button class="primary" data-next="scary">I remember…</button>
+    </section>
+
+    <section class="screen dark" id="scary">
+      <div class="memory-icon">👻</div>
+      <p class="eyebrow">Chapter 03</p>
+      <h2>The scary house…</h2>
+      <p>We went for rides. We had fun. We explored the amusement park.</p>
+      <button class="primary" id="enterScary">Enter if you dare 👻</button>
+    </section>
+
+    <section class="screen" id="kiss">
+      <div class="kiss-reveal">
+        <div class="heart">❤️</div>
+        <p class="eyebrow">And then…</p>
+        <h2>Our first kiss.</h2>
+        <p>Of all the places it could have happened… it happened in the scary house.</p>
+        <p class="small">Maybe the place was scary. That moment definitely wasn't. ❤️</p>
+      </div>
+      <button class="primary" data-next="dumbo">Keep going</button>
+    </section>
+
+    <section class="screen" id="dumbo">
+      <div class="memory-icon">🐘</div>
+      <p class="eyebrow">Things I love about you</p>
+      <h2>My favourite Dumbo ❤️</h2>
+      <div class="love-list">
+        <div>When you care about me.</div>
+        <div>When you get jealous about other girls. 👀</div>
+        <div>When your childish side comes out.</div>
+        <div>When you act like a complete Dumbo. 😂</div>
+      </div>
+      <button class="primary" data-next="funny">There is more…</button>
+    </section>
+
+    <section class="screen" id="funny">
+      <div class="memory-icon">😂</div>
+      <p class="eyebrow">One unforgettable memory</p>
+      <h2>Okay… we have to talk about this.</h2>
+      <p>We were just enjoying ourselves and then… you decided to give me a memory I could never forget.</p>
+      <button class="primary" id="poopReveal">Reveal the memory</button>
+      <p id="poopText" class="hidden joke">YOU POOPED. 💩😂<br><span>And somehow, I still love you.</span></p>
+    </section>
+
+    <section class="screen" id="romance">
+      <div class="memory-icon">🌚</div>
+      <p class="eyebrow">You know…</p>
+      <h2>And then there are <em>those</em> memories.</h2>
+      <p>You know exactly what I'm talking about. 🌚❤️</p>
+      <button class="primary" data-next="questions">No explanation needed 😂</button>
+    </section>
+
+    <section class="screen" id="questions">
+      <p class="eyebrow">A little quiz</p>
+      <h2 id="questionTitle">Where did our story begin?</h2>
+      <div id="answers" class="answers"></div>
+      <p id="questionFeedback" class="feedback"></p>
+    </section>
+
+    <section class="screen" id="photos">
+      <div class="memory-icon">📸</div>
+      <p class="eyebrow">Our memories</p>
+      <h2>This part is waiting for <span>our photos.</span></h2>
+      <p>We'll add your favourite pictures here later, with captions and beautiful transitions.</p>
+      <button class="primary" data-next="song">Continue</button>
+    </section>
+
+    <section class="screen" id="song">
+      <div class="memory-icon">🎵</div>
+      <p class="eyebrow">Our song</p>
+      <h2>Until I Found You</h2>
+      <p>Stephen Sanchez</p>
+      <p class="small">We'll add your music button here after you provide the audio file or decide on the music setup.</p>
+      <button class="primary" data-next="letter">One last thing…</button>
+    </section>
+
+    <section class="screen" id="letter">
+      <p class="eyebrow">For you, Yashi</p>
+      <h2>There is something I want you to know.</h2>
+      <div class="letter">
+        <p>Kirti, my Yashi…</p>
+        <p>We've had fun, adventures, beautiful moments and more than a few fights. 😂</p>
+        <p>But through all of it, you've become someone I don't just want in my memories. I want you in my future.</p>
+        <p class="reveal-line">And yes… I mean it.</p>
+      </div>
+      <button class="primary" data-next="future">Open the future</button>
+    </section>
+
+    <section class="screen" id="future">
+      <div class="ring">💍</div>
+      <p class="eyebrow">One promise</p>
+      <h2>I'm going to marry you soon.</h2>
+      <p>So don't think this birthday surprise is the end of our story.</p>
+      <p>It's just another chapter of everything I still want to experience with you.</p>
+      <button class="primary" data-next="finale">Happy Birthday, Yashi ❤️</button>
+    </section>
+
+    <section class="screen finale" id="finale">
+      <div id="confetti"></div>
+      <div class="cake">🎂</div>
+      <p class="eyebrow">28 August</p>
+      <h1>Happy Birthday, Yashi! ❤️</h1>
+      <p class="subtitle">Here's to you, to us, and to all the birthdays still waiting for us.</p>
+      <p class="signature">— Yours ❤️</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
